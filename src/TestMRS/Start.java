@@ -29,8 +29,6 @@ public WebDriver driver;
 				
 		//Navigates to the portal
 		driver.navigate().to(CommonHelpers.Url);
-				
-		//Thread.sleep(1000);
 		
 	}
 	

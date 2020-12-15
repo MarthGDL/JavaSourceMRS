@@ -2,6 +2,8 @@ package TestMRS;
 
 import org.testng.annotations.Test;
 
+import ExcelDataReader.ExcelReader;
+
 public class LogTest extends Start {
 	
 	@Test
@@ -12,13 +14,14 @@ public class LogTest extends Start {
 		HomePage.FillSignInForm(driver);
 		
 		//Check if the user is in the Profile page
-		
+		HomePage.CheckSuccessfulLogIn(driver);
 		
 	}
 	
 	@Test
 	public void JustChecking() {
 		
+		ExcelReader.tellMePath();
 	}
 	
 }

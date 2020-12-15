@@ -8,7 +8,6 @@
           <include name="JustChecking"/>
           <include name="SetUp"/>
           <include name="TearDown"/>
-          <include name="LogInTest"/>
         </methods>
       </class> <!-- TestMRS.LogTest -->
     </classes>
